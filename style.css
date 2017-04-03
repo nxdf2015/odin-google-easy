@@ -99,7 +99,7 @@ li > a:hover {
 
 #request{
     font-size :35px;
-    color : #0b635a;
+    color : #828282;
   margin : 0 auto; 
   
    box-sizing: content-box;
@@ -111,37 +111,26 @@ li > a:hover {
     color :#5a7572;
 }
 
- /*td {
-    border : 1px solid black;
-    
-}
-table#links {
-    width: 50%;
-    height: 90px;
-    margin : 15 auto 0 auto;
-    
+#buttons{
+    margin : 10px;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-#links tr {
-    height: 80px
-
+.button {
+    font-size: 10px;
+    text-transform : capitalize;
+    margin : 0 5px;
+    color :  #828282;
+    background: #efefef;
+    padding: 8px;
+    font-weight: bold;
 }
-
-#links td {
-    width : 80px;
-    
+.button:hover {
+    border : 1px solid #d0d0d0;
+    margin : 0 5px;
+    color :  #828282;
+    background: white;
 }
-
-#links tr:nth-child(even){
-    background : red;
-}
-
-table#symbol{
-    width: 20px;
-    height: 20px;
-    
-}
-#symbol  td {
- background : black;
- padding : 2px;
-}*/
+ 
