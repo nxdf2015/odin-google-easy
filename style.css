@@ -134,3 +134,48 @@ li > a:hover {
     background: white;
 }
  
+ footer{
+    /*/ height: 50px;*/
+    position : relative;
+    top : 22%;
+    height: 45px;
+    margin : -6px;
+     background:rgba(165, 165, 176, 0.2);
+     display :flex;
+     justify-content: space-around;
+    border-top : 1px solid rgba(130, 130, 130, 0.33);
+     
+ }
+
+#emptyfooter {
+    flex-basis :50px;
+}
+
+.options a:link{
+     color : #868080;
+    text-decoration:none;
+}
+.options a:hover{
+    text-decoration:underline;
+}
+.options{
+  
+     margin : 10px 5px;
+     padding : 5px;
+   text-transform: capitalize;
+  
+}
+
+
+
+
+#left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#rigth {
+     display: flex;
+    justify-content: flex-end;
+}
+
