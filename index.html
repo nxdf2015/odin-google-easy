@@ -1,60 +1,94 @@
+<!doctype html>
 <html>
+
 <head>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-    <body>
-        <header>
-            <ul>
-                <li><a href="#">gmail</a></li>
-                <li><a href=#>images</a></li>
-        <li>
-         <i class="material-icons icon-app">apps</i>
-        </li>
-        <li>
-            <div id=notification title="notification">
-                <i class="material-icons icon-notification ">notifications</i>
-            </div> 
-        </li>
-        <li> 
-            <div id=avatar title="compte google"><div id=letter>X</div></div>
-        </li>   
-</ul>
-        </header>
-    
-        <div id="container">
-            <div id=logo>
-            <img src="./logo/Google_2015_logo.svg" alt="logo google">
-            <div id="country">france</div> 
-           </div>
-            <input type="text" id="request" name="request"  placeholder="rechercher sur google ou saisir une URL">
-           <div id=buttons >
-           <div class="button">Google search</div>
-           <div class="button">I'm lucky</div>
-           
-            </div>
-            </div>
-       
- 
-    <footer>
-          
-            <div id="left">
-            <div class="options"><a href=#>publicity</a></div>
-            <div class="options"><a href=#>entreprise</a></div>           
-            <div class="options"><a href=#>a propos</a></div>
-            </div>
-           <div id="emptyfooter"></div>
-            <div id=rigth>
-            <div class="options"><a href=#>confidentality</a></div>
-            <div class="options"><a href=#>conditions</a></div>
-            <div class="options"><a href=#>parameter</a></div>
-            <div class="options"><a href=#>use google.com</a></div>
-            </div>
-           
-         
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="menu__box">
+                <a href="#" class="menu__link">gmail</a>
+            </li>
+            <li class="menu__box">
+                <a href="#" class="menu__link">images</a>
+            </li>
+            <li class="menu__box">
+                <a href="#" class="menu__link">
+                    <figure class="menu__link__icon">
+                        <img src="./logo/grid.svg">
+                    </figure>
+                </a>
+            </li>
+            <li class="menu__box">
+                <a href="#" class="menu__link">
+                    <div class="link__bell">
+                        <object type="image/svg+xml" class="link__bell__icon" data="./logo/ios-bell.svg"></object>
+
+                    </div>
+                </a>
+            </li>
+            <li class="menu__box">
+                <a href="#" class="menu__link">
+                    <div class="link__user">
+                        <div class="link__user__icon">X</div>
+                    </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main">
+        <figure class="main__logo">
+            <img src="./logo/logo_google.svg">
+        </figure>
+        <div class="main__input__box">
+            <input type=text class="main__input">
+            <object class="main__input__icon" type="image/svg+xml" data="./logo/ios-mic.svg"></object>
+        </div>
+
+        <div class="search">
+            <div class="search__button">search google</div>
+            <div class="search__button">i have luck</div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__country">usa</div>
+        <hr class="hr-default">
+        <div class="footer__menu">
+
+            <ul class="footer__menu-left">
+
+                <li class="menu__box">
+                    <a href="#" class="menu__link">publicity</a>
+                </li>
+                <li class="menu__box">
+                    <a href="#" class="menu__link">enterprise</a>
+                </li>
+                <li class="menu__box">
+                    <a href="#" class="menu__link">about</a>
+                </li>
+            </ul>
+            <ul class="footer__menu-right">
+                <li class="menu__box">
+                    <a href="#" class="menu__link">info</a>
+                </li>
+                <li class="menu__box">
+                    <a href="#" class="menu__link">confidentiality</a>
+                </li>
+                <li class="menu__box">
+                    <a href="#" class="menu__link">conditions</a>
+                </li>
+                <li class="menu__box">
+                    <a href="#" class="menu__link">parameter</a>
+                </li>
+            </ul>
+        </div>
+
+        </ul>
     </footer>
-    </body>
- 
+</body>
+
 </html>
